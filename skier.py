@@ -17,10 +17,11 @@ def skier(x,y,d,depth):
         skier(x + d // 3, y, d // 3, depth)
         skier(x + 2 * (d // 3), y, d // 3, depth)
         skier(x, y + d // 3, d // 3, depth)
+        skier(x + 2 * (d // 3), y + d // 3, d // 3, depth)
         skier(x, y + 2 * (d // 3), d // 3, depth)
         skier(x + d // 3, y + 2 * (d // 3), d // 3, depth)
         skier(x + 2 * (d // 3), y + 2 * (d // 3), d // 3, depth)
-        skier(x + 2 * (d // 3), y + d // 3, d // 3, depth)
+       
 
 skier(50, 50, 800, 6)
 
